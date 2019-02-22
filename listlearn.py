@@ -8,14 +8,4 @@ print (list[2:])      # Prints elements starting from 3rd element
 print (tinylist * 2)  # Prints list two times
 print (list + tinylist) # Prints concatenated lists
 
-xx = "-100"
-int(xx, base=10)
-print(xx)
 
-yy = "10"
-int(yy,base=10)
-yy.__init__()
-
-zz = -10
-int(zz)
-print (zz)
