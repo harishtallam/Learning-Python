@@ -53,7 +53,22 @@ print("Encoding:",str.encode(encoding='UTF-8',errors='strict'))
 str = str.encode(encoding='UTF-8', errors='strict')
 print("Decoding:",str.decode(encoding='UTF-8',errors='strict'))
 
-str = str.encode(encoding='base64', errors='strict')
-print("Decoding:",str.decode(encoding='base64',errors='strict'))
+#str = str.encode(encoding='base64', errors='strict')
+#print("Decoding:",str.decode(encoding='base64',errors='strict'))
 
 
+
+str = "this is string example....wow!!!"
+
+suffix = "wow!!!"
+print (str.endswith(suffix))
+print (str.endswith(suffix,20))
+
+suffix = "is"
+print (str.endswith(suffix, 2, 4))
+print (str.endswith(suffix, 2, 6))
+
+
+print ('abc', -4.24e93, 18+6.6j, 'xyz')
+x, y = 1, 2
+print ("Value of x , y : ", x,y)
