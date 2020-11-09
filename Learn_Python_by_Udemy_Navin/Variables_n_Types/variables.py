@@ -74,6 +74,3 @@ print('my ' + new_name[3:])
 
 ### Length of a string
 print(len(new_name))
-
-
-
