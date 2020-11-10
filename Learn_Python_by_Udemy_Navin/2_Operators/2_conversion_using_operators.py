@@ -26,5 +26,5 @@ print(0o32)
 # Decimal to Hexa Decimal
 print(hex(a))
 
-# Hexa Decimal to Decimal
+# Hexadecimal to Decimal
 print(0xf)
