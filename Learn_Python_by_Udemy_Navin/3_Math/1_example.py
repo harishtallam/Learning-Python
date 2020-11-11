@@ -12,3 +12,9 @@ print(math.pow(2, 5))  # 2 power 5
 # Math Constants
 print(math.pi)  # prints pi value
 print(math.e)  # prints epsilon value
+
+"""
+ceil(): this function returns smallest integral value greater than the number.
+floor (): this function returns greater integral value smaller than the number.
+fabs(): function returns the absolute value of number.
+"""
