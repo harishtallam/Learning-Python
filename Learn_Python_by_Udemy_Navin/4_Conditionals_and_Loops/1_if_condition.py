@@ -86,3 +86,25 @@ elif x==3:
     print("Three")
 else:
     print("Four")
+
+
+## Assignment
+# Write a code to check a given number is positive or negative
+x = 1
+if x==-1:
+    print("The number is negative")
+elif x==1:
+    print("The number is positive")
+else:
+    print("No number")
+
+# Take three values from user and find greatest number among them
+x = int(input("Enter 1st Number: "))
+y = int(input("Enter 2nd Number: "))
+z = int(input("Enter 3rd Number: "))
+if((x>y) & (x>z)):
+    print("x is the largest number", x)
+elif(y>2):
+    print("y is the largest number", y)
+else:
+    print("z is the largest number", z)
